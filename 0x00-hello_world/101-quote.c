@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unist.h>
+#include <unistd.h>
 /**
  * main - A programme that prints a quote
  * Return: 1 (Success)
