@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - A programme that prints a quote
+ * main - A programme that prints a standard error
  * Return: 1 (Success)
  */
 int main(void)
 {
 	const char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(2, quote, sizeof(quote) - 1);
+	write(2, quote);
 	return (1);
 }
