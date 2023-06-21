@@ -7,18 +7,18 @@
 int main(void)
 {
 	int c;
-	unsigned long f1 = 0, f2 = 1, sum, sum2;
+	unsigned long f1 = 1, f2 = 2, sum = 0, sum2;
 
-	for (c = 0; c < 32; c++)
+	for (c = 1; c <= 33, c++)
 	{
-		sum = f1 + f2;
-		f1 = f2;
-		f2 = sum;
-		if (sum % 2 == 0)
+		if (f1 < 4000000 && (f1 % 2) == 0)
 		{
-			sum2 = sum2 + sum;
+			sum = sum + f1;
 		}
+		sum2 = f1 + f2;
+		f1 = f2;
+		f2 = sum2;
 	}
-	printf("%lu\n", sum2);
+	printf("%lu\n", sum);
 	return (0);
 }
