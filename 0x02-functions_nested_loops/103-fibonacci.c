@@ -9,7 +9,7 @@ int main(void)
 	int c;
 	unsigned long f1 = 1, f2 = 2, sum = 0, sum2;
 
-	for (c = 1; c <= 33, c++)
+	for (c = 1; c <= 33; c++)
 	{
 		if (f1 < 4000000 && (f1 % 2) == 0)
 		{
