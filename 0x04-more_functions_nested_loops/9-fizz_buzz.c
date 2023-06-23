@@ -16,23 +16,23 @@ int main(void)
 	{
 		if (i % 15 == 0)
 		{
-			printf("FizzBuzz");
-			putchar(' ');
+			printf(" FizzBuzz");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz");
-			putchar(' ');
+			printf(" Fizz");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz");
-			putchar(' ');
+			printf(" Buzz");
+		}
+		else if (i == 1)
+		{
+			printf("%d", i);
 		}
 		else
 		{
-			printf("%d", i);
-			putchar(' ');
+			printf(" %d", i);
 		}
 	}
 	putchar('\n');
