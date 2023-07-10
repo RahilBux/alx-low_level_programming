@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * strdup - returns a pointer to a newly allocated memory slot
+ * _strdup - returns a pointer to a newly allocated memory slot
  * @str: string to copy to new memory slot
  * Return: pointer to new string or NULL
  */
