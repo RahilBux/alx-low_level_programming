@@ -17,14 +17,14 @@ int word_count(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (s[i] == ' ')
+		if (str[i] == ' ')
 		{
 			j = 0;
 		}
 		else if (j == 0)
 		{
 			j = 1;
-			w++
+			w++;
 		}
 	}
 	return (w);
@@ -59,7 +59,7 @@ char **strtow(char *str)
 			if (m)
 			{
 				e = i;
-				tmp = (char *) malloc(sizeof(char)* (m + 1));
+				tmp = (char *) malloc(sizeof(char) * (m + 1));
 				if (tmp == NULL)
 					return (NULL);
 
