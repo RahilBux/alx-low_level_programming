@@ -10,22 +10,16 @@
 
 int *array_range(int min, int max)
 {
-	int fill = 0;
-	int copy = min;
+	int size;
 	int *ptr;
 	int i;
 
 	if (min > max)
 		return (NULL);
 
-	while (copy < max)
-	{
-		fill++;
-		copy++;
-	}
-	copy += 1;
+	size = max - min + 1;
 
-	ptr = malloc(sizeof(int) * copy);
+	ptr = malloc(sizeof(int) * size);
 	if (ptr == NULL)
 	{
 		return (NULL);
