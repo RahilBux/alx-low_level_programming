@@ -28,7 +28,7 @@ int main(int *argc, char *argv[])
 		exit(2);
 	}
 
-	array = (char*)main;
+	array = (char *)main;
 
 	for (i = 0; i < b; i++)
 	{
