@@ -19,13 +19,13 @@ list_t *add_node(list_t **head, const char *str)
 		len++;
 
 	n = malloc(sizeof(list_t));
-	if (new == NULL)
+	if (n == NULL)
 		return (NULL);
 
-	new->str = strdup(str);
-	new->len = len;
-	new->next = (*head);
-	(*head) = new;
+	n->str = strdup(str);
+	n->len = len;
+	n->next = (*head);
+	(*head) = n;
 
 	return (*head);
 }
