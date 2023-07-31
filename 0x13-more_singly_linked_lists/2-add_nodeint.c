@@ -4,7 +4,7 @@
  * add_nodeint - add a new node to the beginning of a list
  * @head: a pointer to a pointer
  * @n: value of n in the struct list
- * 
+ *
  * Return: Address of the new element or NULL
  */
 
