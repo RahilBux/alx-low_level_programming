@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_endiannes - checks the endianness of a machine
+ * get_endianness - checks the endianness of a machine
  *
  * Return: 0 or 1
  */
@@ -12,4 +12,5 @@ int get_endianness(void)
 	char *e = (char *) &j;
 
 	return (*e);
+
 }
