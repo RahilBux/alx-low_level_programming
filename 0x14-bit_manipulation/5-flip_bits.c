@@ -2,7 +2,7 @@
 
 /**
  * flip_bits - returns the number of bits needed to change
- * 		to get from one number to another
+ *		to get from one number to another
  * @n: first number
  * @m: second number
  *
